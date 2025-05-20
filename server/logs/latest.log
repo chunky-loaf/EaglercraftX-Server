@@ -1,0 +1,514 @@
+[18:36:21] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[18:36:21] [Server thread/INFO]: Loading properties
+[18:36:21] [Server thread/INFO]: Default game type: SURVIVAL
+[18:36:21] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[18:36:21] [Server thread/INFO]: Debug logging is disabled
+[18:36:21] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[18:36:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[18:36:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:36:21] [Server thread/INFO]: Data value allowed items: 
+[18:36:21] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[18:36:21] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[18:36:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[18:36:21] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[18:36:21] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[18:36:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[18:36:21] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[18:36:21] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[18:36:21] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[18:36:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[18:36:21] [Server thread/INFO]: Generating keypair
+[18:36:21] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:36:21] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:36:21] [Server thread/INFO]: Using default channel type
+[18:36:21] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:36:22] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[18:36:22] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[18:36:22] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[18:36:22] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[18:36:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:36:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:36:22] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:36:22] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:36:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:36:22] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:36:22] [Server thread/INFO]: Preparing level "world"
+[18:36:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:36:22] [Server thread/INFO]: Mob Spawn Range: 4
+[18:36:22] [Server thread/INFO]: Anti X-Ray: true
+[18:36:22] [Server thread/INFO]: 	Engine Mode: 1
+[18:36:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:36:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:36:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:36:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:36:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:36:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:36:22] [Server thread/INFO]: Random Lighting Updates: false
+[18:36:22] [Server thread/INFO]: Structure Info Saving: true
+[18:36:22] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:36:22] [Server thread/INFO]: Max Entity Collisions: 8
+[18:36:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:36:22] [Server thread/INFO]: Max TNT Explosions: 100
+[18:36:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:36:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:36:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:36:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:36:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:36:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:36:22] [Server thread/INFO]: View Distance: 4
+[18:36:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:36:22] [Server thread/INFO]: Clear tick list: false
+[18:36:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:36:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:36:22] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:36:22] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:36:22] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:36:22] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:36:22] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:36:22] [Server thread/INFO]: Water over lava flow speed: 5
+[18:36:22] [Server thread/INFO]: Fix TNT cannons: false
+[18:36:22] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:36:22] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:36:22] [Server thread/INFO]: World async lighting: false
+[18:36:22] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:36:22] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:36:22] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:36:22] [Server thread/INFO]: Mob Spawn Range: 4
+[18:36:22] [Server thread/INFO]: Anti X-Ray: true
+[18:36:22] [Server thread/INFO]: 	Engine Mode: 1
+[18:36:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:36:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:36:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:36:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:36:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:36:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:36:22] [Server thread/INFO]: Random Lighting Updates: false
+[18:36:22] [Server thread/INFO]: Structure Info Saving: true
+[18:36:22] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:36:22] [Server thread/INFO]: Max Entity Collisions: 8
+[18:36:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:36:22] [Server thread/INFO]: Max TNT Explosions: 100
+[18:36:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:36:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:36:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:36:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:36:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:36:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:36:22] [Server thread/INFO]: View Distance: 4
+[18:36:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:36:22] [Server thread/INFO]: Clear tick list: false
+[18:36:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:36:22] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:36:22] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:36:22] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:36:22] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:36:22] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:36:22] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:36:22] [Server thread/INFO]: Water over lava flow speed: 5
+[18:36:22] [Server thread/INFO]: Fix TNT cannons: false
+[18:36:22] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:36:22] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:36:22] [Server thread/INFO]: World async lighting: false
+[18:36:22] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:36:22] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:36:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:36:22] [Server thread/INFO]: Mob Spawn Range: 4
+[18:36:22] [Server thread/INFO]: Anti X-Ray: true
+[18:36:22] [Server thread/INFO]: 	Engine Mode: 1
+[18:36:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:36:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:36:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:36:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:36:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:36:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:36:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:36:22] [Server thread/INFO]: Random Lighting Updates: false
+[18:36:22] [Server thread/INFO]: Structure Info Saving: true
+[18:36:22] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:36:22] [Server thread/INFO]: Max Entity Collisions: 8
+[18:36:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:36:22] [Server thread/INFO]: Max TNT Explosions: 100
+[18:36:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:36:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:36:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:36:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:36:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:36:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:36:22] [Server thread/INFO]: View Distance: 4
+[18:36:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:36:22] [Server thread/INFO]: Clear tick list: false
+[18:36:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:36:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:36:22] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:36:22] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:36:22] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:36:22] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:36:22] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:36:22] [Server thread/INFO]: Water over lava flow speed: 5
+[18:36:22] [Server thread/INFO]: Fix TNT cannons: false
+[18:36:22] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:36:22] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:36:22] [Server thread/INFO]: World async lighting: false
+[18:36:22] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:36:22] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:36:22] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4500294704598174602)
+[18:36:23] [Server thread/INFO]: Preparing spawn area: 20%
+[18:36:24] [Server thread/INFO]: Preparing spawn area: 54%
+[18:36:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4500294704598174602)
+[18:36:26] [Server thread/INFO]: Preparing spawn area: 36%
+[18:36:27] [Server thread/INFO]: Preparing spawn area: 87%
+[18:36:27] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4500294704598174602)
+[18:36:28] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[18:36:28] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[18:36:28] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[18:36:28] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:36:28] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[18:36:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[18:36:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:36:29] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[18:36:29] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[18:36:29] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:36:29] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:36:29] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:36:29] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:36:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:36:29] [Server thread/INFO]: Done (7.302s)! For help, type "help" or "?"
+[18:36:29] [Server thread/INFO]: Timings Reset
+[18:36:30] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[18:36:30] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[18:36:30] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[18:37:04] [Thread-7/INFO]: UUID of player mewqo is 4726fe0e-4d21-3464-9cec-f92d5c325c3e
+[18:37:05] [Server thread/INFO]: mewqo[/[0:0:0:0:0:0:0:1]:42796] logged in with entity id 269 at ([world]577.075534923837, 78.0, -873.9122750120541)
+[18:39:31] [Thread-8/INFO]: UUID of player chunky_loaf is c9c91701-5e30-3f24-91f1-3cd7ae82e7dc
+[18:39:31] [Server thread/INFO]: chunky_loaf[/[0:0:0:0:0:0:0:1]:37480] logged in with entity id 468 at ([world]228.03338725037952, 66.0, -800.088444205475)
+[18:39:41] [Async Chat Thread - #0/INFO]: <chunky_loaf> ahhh[m
+
+[18:40:15] [Async Chat Thread - #0/INFO]: <chunky_loaf> btw i got me a home[m
+
+[18:40:35] [Async Chat Thread - #0/INFO]: <mewqo> o yo i was js doing s,th im back[m
+
+[18:40:43] [Async Chat Thread - #0/INFO]: <chunky_loaf> back from a stroke?[m
+
+[18:40:51] [Async Chat Thread - #0/INFO]: <mewqo> your moms house[m
+
+[18:40:56] [Async Chat Thread - #0/INFO]: <chunky_loaf> lies im here rn[m
+
+[18:41:02] [Async Chat Thread - #0/INFO]: <mewqo> look behind you[m
+
+[18:41:12] [Async Chat Thread - #0/INFO]: <chunky_loaf> i also see alfie[m
+
+[18:41:16] [Async Chat Thread - #0/INFO]: <chunky_loaf> only*[m
+
+[18:41:22] [Async Chat Thread - #0/INFO]: <mewqo> schizo[m
+
+[18:42:41] [Server thread/INFO]: mewqo issued server command: /tpa chunky_loaf
+[18:42:45] [Async Chat Thread - #1/INFO]: <chunky_loaf> lava pool y57 right under my house[m
+
+[18:42:53] [Async Chat Thread - #1/INFO]: <chunky_loaf> tspmo[m
+
+[18:42:56] [Server thread/INFO]: chunky_loaf issued server command: /tpacc
+[18:42:58] [Server thread/INFO]: chunky_loaf issued server command: /tpaccept
+[18:43:01] [Async Chat Thread - #1/INFO]: <mewqo> skill issue nlg#[m
+
+[18:43:10] [Async Chat Thread - #1/INFO]: <chunky_loaf> "nlg" saw smth else[m
+
+[18:43:14] [Async Chat Thread - #1/INFO]: <mewqo> wheres uyour hosue[m
+
+[18:43:17] [Async Chat Thread - #1/INFO]: <mewqo> shiut up[m
+
+[18:43:17] [Async Chat Thread - #1/INFO]: <chunky_loaf> here[m
+
+[18:43:30] [Async Chat Thread - #1/INFO]: <mewqo> u homeless[m
+
+[18:43:33] [Async Chat Thread - #1/INFO]: <mewqo> ?[m
+
+[18:43:35] [Async Chat Thread - #1/INFO]: <chunky_loaf> nuh uh[m
+
+[18:43:57] [Async Chat Thread - #1/INFO]: <mewqo> o im js blind then[m
+
+[18:44:04] [Async Chat Thread - #1/INFO]: <chunky_loaf> ye[m
+
+[18:44:23] [Async Chat Thread - #1/INFO]: <mewqo> skibifi[m
+
+[18:44:28] [Async Chat Thread - #1/INFO]: <mewqo> delusional ahh[m
+
+[18:44:29] [Async Chat Thread - #1/INFO]: <chunky_loaf> dop dop dop yes yes[m
+
+[18:44:37] [Async Chat Thread - #1/INFO]: <mewqo> skibidi dop dop[m
+
+[18:44:56] [Async Chat Thread - #1/INFO]: <mewqo> im ognna bbuold my house here][m
+
+[18:44:57] [Async Chat Thread - #1/INFO]: <mewqo> ,au7be[m
+
+[18:44:59] [Async Chat Thread - #1/INFO]: <mewqo> ,anu7eb][m
+
+[18:45:01] [Async Chat Thread - #1/INFO]: <chunky_loaf> ok[m
+
+[18:45:03] [Async Chat Thread - #1/INFO]: <mewqo> ,a;amuen[m
+
+[18:45:04] [Async Chat Thread - #1/INFO]: <mewqo> maybe[m
+
+[18:45:10] [Async Chat Thread - #1/INFO]: <mewqo> weowi ll see[m
+
+[18:45:14] [Async Chat Thread - #1/INFO]: <chunky_loaf> moew will see[m
+
+[18:45:20] [Async Chat Thread - #1/INFO]: <mewqo> im gong in ur mine chaft][m
+
+[18:45:30] [Async Chat Thread - #1/INFO]: <chunky_loaf> shaft[m
+
+[18:45:33] [Async Chat Thread - #1/INFO]: <mewqo> nvm[m
+
+[18:45:37] [Async Chat Thread - #1/INFO]: <chunky_loaf> lol[m
+
+[18:45:42] [Async Chat Thread - #1/INFO]: <mewqo> i make newom e[m
+
+[18:45:50] [Async Chat Thread - #1/INFO]: <chunky_loaf> cat talk ahh[m
+
+[18:46:04] [Async Chat Thread - #1/INFO]: <mewqo> sybau[m
+
+[18:46:52] [Server thread/WARN]: Wrong location for EntityChicken['Chicken'/1807, l='world', x=174.48, y=60.00, z=-848.02] in world 'world'!
+[18:46:52] [Server thread/WARN]: Entity is at 174.48318463659655,-848.017519934404 (chunk 10,-54) but was stored in chunk 10,-53
+[18:47:37] [Async Chat Thread - #2/INFO]: <chunky_loaf> eep[m
+
+[18:47:53] [Async Chat Thread - #2/INFO]: <chunky_loaf> honk shoo![m
+
+[18:49:30] [Async Chat Thread - #3/INFO]: <mewqo> mineshaft incoming[m
+
+[18:49:39] [Server thread/INFO]: mewqo lost connection: Disconnected
+[18:49:39] [Server thread/INFO]: mewqo left the game.
+[18:49:40] [Thread-10/INFO]: UUID of player mewqo is 4726fe0e-4d21-3464-9cec-f92d5c325c3e
+[18:49:40] [Server thread/INFO]: mewqo[/[0:0:0:0:0:0:0:1]:49832] logged in with entity id 2206 at ([world]242.4937959279687, 23.0, -805.5606399094396)
+[18:51:07] [Async Chat Thread - #4/INFO]: <chunky_loaf> ima build a big ahh house from a tutorial do u want part of it or your own?[m
+
+[18:51:19] [Async Chat Thread - #4/INFO]: <mewqo> im an independtne tman[m
+
+[18:51:25] [Async Chat Thread - #4/INFO]: <chunky_loaf> look dc[m
+
+[18:51:41] [Server thread/INFO]: chunky_loaf issued server command: //cal
+[18:51:59] [Async Chat Thread - #4/INFO]: <chunky_loaf> i got it planned out too[m
+
+[18:55:12] [Async Chat Thread - #5/INFO]: <mewqo> wya[m
+
+[18:55:16] [Async Chat Thread - #5/INFO]: <chunky_loaf> base[m
+
+[18:55:30] [Async Chat Thread - #5/INFO]: <mewqo> didnt ask[m
+
+[18:55:35] [Async Chat Thread - #5/INFO]: <chunky_loaf> literally did[m
+
+[18:55:47] [Async Chat Thread - #5/INFO]: <mewqo> nuh[m
+
+[18:55:53] [Async Chat Thread - #5/INFO]: <chunky_loaf> "are you sure?"[m
+
+[18:56:02] [Async Chat Thread - #5/INFO]: <mewqo> WIRHC[m
+
+[18:56:05] [Server thread/INFO]: mewqo issued server command: /WOTHC}
+[18:56:07] [Async Chat Thread - #5/INFO]: <mewqo> WITHC}[m
+
+[18:56:11] [Async Chat Thread - #5/INFO]: <mewqo> wITCH[m
+
+[18:56:13] [Async Chat Thread - #5/INFO]: <mewqo> HEPL[m
+
+[18:56:19] [Async Chat Thread - #5/INFO]: <chunky_loaf> just crit ut[m
+
+[18:56:20] [Async Chat Thread - #5/INFO]: <chunky_loaf> it[m
+
+[18:59:11] [Async Chat Thread - #6/INFO]: <chunky_loaf> what went boom[m
+
+[18:59:14] [Server thread/INFO]: mewqo issued server command: /
+[18:59:17] [Async Chat Thread - #6/INFO]: <mewqo> cerper[m
+
+[18:59:23] [Async Chat Thread - #6/INFO]: <chunky_loaf> chirper[m
+
+[18:59:43] [Async Chat Thread - #6/INFO]: <chunky_loaf> eep[m
+
+[19:03:17] [Async Chat Thread - #7/INFO]: <chunky_loaf> aw man[m
+
+[19:03:32] [Server thread/INFO]: mewqo issued server command: /
+[19:03:37] [Async Chat Thread - #7/INFO]: <mewqo> too many ceeper[m
+
+[19:04:29] [Async Chat Thread - #7/INFO]: <chunky_loaf> rip no tilled dirt[m
+
+[19:04:42] [Async Chat Thread - #7/INFO]: <mewqo> sigma sigma boy[m
+
+[19:04:49] [Async Chat Thread - #7/INFO]: <mewqo> anfoansvsd NEIANSOIDANVNOFND[m
+
+[19:05:01] [Async Chat Thread - #7/INFO]: <mewqo> witch posion me i am 1 herta[m
+
+[19:05:06] [Async Chat Thread - #7/INFO]: <chunky_loaf> Sigma-sigma boy, sigma boy, sigma boyКаждая девчонка хочет танцевать с тобойSigma-sigma boy, sigma b[m
+
+[19:06:01] [Async Chat Thread - #7/INFO]: <chunky_loaf> lemme finish designing this layout before you build[m
+
+[19:06:21] [Async Chat Thread - #7/INFO]: <mewqo> belp[m
+
+[19:06:28] [Server thread/INFO]: chunky_loaf issued server command: /tpahere m
+[19:06:34] [Async Chat Thread - #7/INFO]: <mewqo> no[m
+
+[19:06:39] [Async Chat Thread - #7/INFO]: <chunky_loaf> belp[m
+
+[19:06:46] [Async Chat Thread - #7/INFO]: <mewqo> bo away[m
+
+[19:06:57] [Async Chat Thread - #7/INFO]: <chunky_loaf> botos binted?[m
+
+[19:07:05] [Async Chat Thread - #7/INFO]: <mewqo> bleeply bopr[m
+
+[19:08:13] [Async Chat Thread - #8/INFO]: <chunky_loaf> pweese 3 iron[m
+
+[19:08:25] [Server thread/INFO]: chunky_loaf issued server command: /tpa mo
+[19:08:29] [Server thread/INFO]: chunky_loaf issued server command: /tpa m
+[19:08:30] [Server thread/INFO]: mewqo issued server command: /tpa chunky_loaf
+[19:08:40] [Server thread/INFO]: mewqo issued server command: /tpadeny
+[19:08:44] [Async Chat Thread - #8/INFO]: <chunky_loaf> i bring food[m
+
+[19:08:46] [Server thread/INFO]: mewqo issued server command: /tpdeny
+[19:08:49] [Async Chat Thread - #8/INFO]: <chunky_loaf> :([m
+
+[19:08:51] [Server thread/INFO]: mewqo issued server command: /tpa chunky_loaf
+[19:08:55] [Server thread/INFO]: chunky_loaf issued server command: /tpaccept
+[19:08:55] [Async Chat Thread - #8/INFO]: <mewqo> shut rp[m
+
+[19:09:20] [Async Chat Thread - #8/INFO]: <mewqo> where house[m
+
+[19:09:20] [Async Chat Thread - #8/INFO]: <chunky_loaf> yummers[m
+
+[19:09:28] [Async Chat Thread - #8/INFO]: <mewqo> o[m
+
+[19:09:33] [Async Chat Thread - #8/INFO]: <mewqo> house upward ??[m
+
+[19:09:36] [Async Chat Thread - #8/INFO]: <mewqo> sjy house[m
+
+[19:09:41] [Async Chat Thread - #8/INFO]: <chunky_loaf> youll see :shush_2:[m
+
+[19:09:42] [Async Chat Thread - #8/INFO]: <mewqo> whewre balloms[m
+
+[19:09:46] [Async Chat Thread - #8/INFO]: <mewqo> shush w[m
+
+[19:09:48] [Async Chat Thread - #8/INFO]: <chunky_loaf> need fences[m
+
+[19:09:48] [Async Chat Thread - #8/INFO]: <mewqo> 2[m
+
+[19:09:53] [Async Chat Thread - #8/INFO]: <mewqo> need bitches[m
+
+[19:09:59] [Async Chat Thread - #8/INFO]: <chunky_loaf> same[m
+
+[19:10:18] [Async Chat Thread - #8/INFO]: <mewqo> trer4e[m
+
+[19:10:24] [Async Chat Thread - #8/INFO]: <mewqo> tree[m
+
+[19:10:30] [Server thread/INFO]: mewqo fell from a high place
+[19:10:35] [Server thread/INFO]: mewqo issued server command: /back
+[19:10:41] [Async Chat Thread - #8/INFO]: <mewqo> tried water bucket][m
+
+[19:10:43] [Async Chat Thread - #8/INFO]: <chunky_loaf> tree :o[m
+
+[19:11:51] [Async Chat Thread - #9/INFO]: <chunky_loaf> eep[m
+
+[19:11:57] [Async Chat Thread - #9/INFO]: <chunky_loaf> honk shoo![m
+
+[19:16:11] [Async Chat Thread - #10/INFO]: <chunky_loaf> aw man[m
+
+[19:19:38] [Server thread/INFO]: mewqo has just earned the achievement [Benchmarking]
+[19:19:56] [Server thread/INFO]: mewqo has just earned the achievement [Time to Mine!]
+[19:19:56] [Server thread/INFO]: mewqo has just earned the achievement [Getting an Upgrade]
+[19:21:18] [Async Chat Thread - #11/INFO]: <chunky_loaf> done[m
+
+[19:24:04] [Async Chat Thread - #12/INFO]: <chunky_loaf> eep[m
+
+[19:24:24] [Async Chat Thread - #12/INFO]: <chunky_loaf> :([m
+
+[19:24:41] [Async Chat Thread - #12/INFO]: <mewqo> oops[m
+
+[19:24:47] [Async Chat Thread - #12/INFO]: <chunky_loaf> homk shoo![m
+
+[19:24:48] [Async Chat Thread - #12/INFO]: <mewqo> ee[m
+
+[19:28:07] [Server thread/INFO]: mewqo issued server command: /
+[19:33:52] [Async Chat Thread - #13/INFO]: <chunky_loaf> ts actually looking fire rn[m
+
+[19:34:07] [Async Chat Thread - #13/INFO]: <mewqo> tping soon[m
+
+[19:37:07] [Async Chat Thread - #14/INFO]: <chunky_loaf> eep[m
+
+[19:39:03] [Server thread/INFO]: mewqo issued server command: /tpa chunky_loaf
+[19:39:06] [Server thread/INFO]: chunky_loaf issued server command: /tpaccept
+[19:40:44] [Async Chat Thread - #15/INFO]: <chunky_loaf> cmere[m
+
+[19:41:38] [Server thread/INFO]: mewqo issued server command: /ooo ocool burbgedubcdew
+[19:41:46] [Async Chat Thread - #16/INFO]: <mewqo> oooo cool brudegud7e[m
+
+[19:41:58] [Async Chat Thread - #16/INFO]: <chunky_loaf> brudgegud007Xx[m
+
+[19:47:08] [Server thread/INFO]: chunky_loaf issued server command: /sethome base
+[19:49:49] [Server thread/INFO]: chunky_loaf issued server command: /sethome bottommine
+[19:49:51] [Server thread/INFO]: chunky_loaf issued server command: /home base
+[19:49:59] [Async Chat Thread - #17/INFO]: <chunky_loaf> eep[m
+
+[19:50:06] [Async Chat Thread - #17/INFO]: <chunky_loaf> homk shoo[m
+
+[19:50:11] [Async Chat Thread - #17/INFO]: <mewqo> mimimimimimimimi[m
+
+[19:50:44] [Server thread/INFO]: chunky_loaf issued server command: /home bottommine
+[19:52:21] [Async Chat Thread - #18/INFO]: <chunky_loaf> mineshaft at the bottom of the fitfall[m
+
+[19:52:32] [Async Chat Thread - #18/INFO]: <mewqo> no way[m
+
+[19:53:16] [Async Chat Thread - #18/INFO]: <chunky_loaf> safe to come down[m
+
+[19:53:57] [Async Chat Thread - #18/INFO]: <chunky_loaf> w[m
+
+[19:54:33] [Async Chat Thread - #18/INFO]: <chunky_loaf> ams taking a break[m
+
+[19:54:37] [Async Chat Thread - #18/INFO]: <chunky_loaf> will be on later tho[m
+
+[19:54:47] [Async Chat Thread - #18/INFO]: <chunky_loaf> (after this iron)[m
+
+[19:54:57] [Async Chat Thread - #18/INFO]: <mewqo> oka bet[m
+
+[19:55:03] [Async Chat Thread - #18/INFO]: <mewqo> not sure if ill be on loater]#[m
+
+[19:55:22] [Async Chat Thread - #18/INFO]: <chunky_loaf> cbook pretty mid on here so idk either[m
+
+[19:55:34] [Async Chat Thread - #18/INFO]: <mewqo> valid[m
+
+[19:55:38] [Async Chat Thread - #18/INFO]: <mewqo> mines at 90 fps[m
+
+[19:55:47] [Async Chat Thread - #18/INFO]: <chunky_loaf> 15 max[m
+
